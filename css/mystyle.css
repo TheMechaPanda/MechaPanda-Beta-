@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: "Ubuntu";
+	src: url(../fonts/ubuntu/Ubuntu-B.ttf)
+}
+
+@font-face{
+	font-family: "Helvetica";
+	src: url(../fonts/HelveticaLTStd-Roman.otf)
+}
+
+body {
+	background-color:#1c1828;
+	width: 100%
+}
+
+nav {
+	float: right;
+	position: fixed;
+	z-index: 1;
+
+h1{color: #bdccd4;
+	font-size: 20px;
+	font-family: Ubuntu;
+	padding-left: 20px;
+}
+
+#Logo {width:100%;
+	padding: 0;
+	margin: 0;
+	
+}
+
+#Me {display: block;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+#Mecha {display: block;
+	width: 100%;
+	text-align: center;
+ 	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+p1{font-family: Helvetica;
+	font-size: 15px;
+	color: #bdccd4;
+}
+
+p2{font-family: Helvetica;
+	font-size: 25px;
+	color: #bdccd4;
+	display: block;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	clear: both;
+
+}
+
+.Sub_section{color: #fc30a0;
+	font-size: 20px;
+	font-family: Ubuntu;
+	padding-left: 40px;
+}
+
+
+
+.column {float: left;
+  width: 30%;
+  padding: 10px;
+
+}
+
+.row {width: 90%;
+  	content: "";
+	clear: both;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+
+}
+	
+ul {list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1C1828;
+	display:block;
+	font-family: Ubuntu;
+}
+
+li {float:left;
+}
+
+li a { display: block;
+    color: #bdccd4;
+    text-align: center;
+    padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {color:#fc30a0 ;
+}
+
+.active {background-color: #820F71;
+	
+}	
+
+
